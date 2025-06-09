@@ -1,0 +1,3 @@
+[submodule "BuildingsBench"]
+	path = BuildingsBench
+	url = https://github.com/NREL/BuildingsBench.git
