@@ -1,0 +1,16 @@
+[model]
+hidden_size = 1024
+context_len = 168
+pred_len = 24
+continuous_loads = true
+
+[pretrain]
+batch_size = 256
+init_scale = 0.02
+warmup_steps = 100
+lr = 0.001
+scheduler_steps = 1000
+apply_scaler_transform = 'boxcox'
+
+[transfer_learning]
+apply_scaler_transform = 'boxcox'
