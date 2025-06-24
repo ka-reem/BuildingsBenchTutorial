@@ -20,14 +20,14 @@ BuildingsBenchTutorial/
 ├── Tutorials/
 │   │
 │   ├── Intro-Modules/
-│   │   ├── [TBD]
-│   │   ├── [TBD]
-│   │   ├── [TBD]
-│   │   ├── [TBD]
-│   │   └── [TBD]
+│   │   ├── Develop-Conda-Kernel.ipynb
+│   │   ├── Intro-Object-Oriented-Programming.ipynb
+│   │   ├── Intro-Pytorch.ipynb
+│   │   ├── Intro-SLURM.ipynb
+│   │   └── Visualize-Time-Series-Data.ipynb
 │   │
 │   └── Deep-Learning-Modules/
-│       ├── [TBD]
+│       ├── Pre-Trained-Transformer.ipynb
 │       ├── [TBD]
 │       └── [TBD]
 │
@@ -35,3 +35,15 @@ BuildingsBenchTutorial/
 │
 └── README.md
 </pre>
+
+The BuildingsBenchTutorial repository contains two key subdirectories: (1) BuildingsBench and (2) Tutorials. You will not need to make any changes to the BuildingsBench directory; all development should take place within the Tutorials directory.
+
+The Tutorials directory contains two subdirectories: (1) Intro-Modules and (2) Deep-Learning-Modules. Please begin by reviewing the modules in Intro-Modules, as they cover foundational concepts that will help you complete the tutorials in the Deep-Learning-Modules directory.
+
+Within Intro-Modules, you must first complete the Develop-Conda-Kernel.ipynb notebook and create a kernel, as this is required to run any of the remaining tutorials. After that, if you're already familiar with object-oriented programming, you may complete the tutorials in any order. However, the recommended sequence is:
+
+- Develop-Conda-Kernel.ipynb
+- Intro-Object-Oriented-Programming.ipynb
+- Intro-PyTorch.ipynb
+- Visualize-Time-Series-Data.ipynb
+- Intro-SLURM.ipynb
