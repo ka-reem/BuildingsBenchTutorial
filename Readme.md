@@ -60,7 +60,7 @@ __Intro-PyTorch:__ In my opinion, PyTorch is the most widely used deep learning 
 
 __Visualize-Time-Series-Data__: [TBD]
 
-__Intro-SLURM:__ SLURM is a resource package manager. It is used by some of the fastest computers in the world such as the Frontier system at Oak Ridge National Laboratory, Perlmutter at 
+__Intro-SLURM:__ SLURM is a resource manager used by some of the world’s fastest supercomputers, including Frontier at Oak Ridge National Laboratory and Perlmutter at Lawrence Berkeley National Laboratory. In this tutorial, you will learn how to create SLURM (sbatch) scripts and submit jobs through the SLURM workload manager.
 
 ### Deep-Learning-Modules
 [TBD]
