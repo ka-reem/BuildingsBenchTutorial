@@ -11,3 +11,13 @@ References
 [2] Gross, George, and F. D. Galiana. "Short-Term Load Forecasting." Proceedings of the IEEE, vol. 75, no. 12, 1987, pp. 1558–1573.
 
 [3] Akhtar, Saima, et al. "Short-Term Load Forecasting Models: A Review of Challenges, Progress, and the Road Ahead."Energies, vol. 16, no. 10, 2023, p. 4060. https://doi.org/10.3390/en16104060.
+
+📦my-project
+ ┣ 📂data
+ ┃ ┣ 📜input.csv
+ ┃ ┗ 📜output.csv
+ ┣ 📂src
+ ┃ ┣ 📜main.py
+ ┃ ┗ 📜utils.py
+ ┣ 📜README.md
+ ┗ 📜requirements.txt
