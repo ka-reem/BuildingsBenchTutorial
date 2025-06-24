@@ -52,7 +52,9 @@ Within Intro-Modules, you must first complete the Develop-Conda-Kernel.ipynb not
 - Visualize-Time-Series-Data.ipynb
 - Intro-SLURM.ipynb
 
-##### Develop-Conda-Kernel.ipynb
+__Develop-Conda-Kernel Tutorial:__ One of the initial technical tasks in developing deep learning models is setting up a dedicated Conda environment. In this tutorial, you will learn how to create a Conda environment and convert it into a Conda kernel that can be used to run other tutorials on NERSC JupyterHub. __Do not skip__ this step, as the kernel is required to run the subsequent tutorials.
+
+__Intro-Object-Oriented-Programming:__ Object-Oriented Programming (OOP) is foundational for writing modular and scalable machine learning code. In this tutorial, you’ll explore its core fundamentals through practical examples.
 
 #### Deep-Learning-Modules
 [TBD]
