@@ -12,14 +12,19 @@ References
 
 [3] Akhtar, Saima, et al. "Short-Term Load Forecasting Models: A Review of Challenges, Progress, and the Road Ahead."Energies, vol. 16, no. 10, 2023, p. 4060. https://doi.org/10.3390/en16104060.
 
-<pre> ```
-my-project/
-├── data/
-│   ├── input.csv
-│   └── output.csv
-├── src/
-│   ├── main.py
-│   └── utils.py
-├── README.md
-└── requirements.txt
-``` </pre>
+<pre> 
+BuildingsBenchTutorial/
+├── Tutorials/
+│   ├── Deep-Learning-Modules/
+│   │   ├── [TBD]
+│   │   ├── [TBD]
+│   │   └── [TBD]
+│   └── Intro-Modules/
+│       ├── [TBD]
+│       ├── [TBD]
+│       ├── [TBD]
+│       ├── [TBD]
+│       └── [TBD]
+├── BuildingBench/
+└── README.md
+</pre>
