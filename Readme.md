@@ -52,5 +52,7 @@ Within Intro-Modules, you must first complete the Develop-Conda-Kernel.ipynb not
 - Visualize-Time-Series-Data.ipynb
 - Intro-SLURM.ipynb
 
+##### Develop-Conda-Kernel.ipynb
+
 #### Deep-Learning-Modules
 [TBD]
