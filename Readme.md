@@ -14,17 +14,22 @@ References
 
 <pre> 
 BuildingsBenchTutorial/
+│
 ├── Tutorials/
-│   ├── Deep-Learning-Modules/
+│   │
+│   ├── Intro-Modules/
+│   │   ├── [TBD]
+│   │   ├── [TBD]
 │   │   ├── [TBD]
 │   │   ├── [TBD]
 │   │   └── [TBD]
-│   └── Intro-Modules/
-│       ├── [TBD]
-│       ├── [TBD]
+│   │
+│   └── Deep-Learning-Modules/
 │       ├── [TBD]
 │       ├── [TBD]
 │       └── [TBD]
+│
 ├── BuildingBench/
+│
 └── README.md
 </pre>
