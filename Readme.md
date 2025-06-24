@@ -13,7 +13,7 @@ References
 [3] Akhtar, Saima, et al. "Short-Term Load Forecasting Models: A Review of Challenges, Progress, and the Road Ahead."Energies, vol. 16, no. 10, 2023, p. 4060. https://doi.org/10.3390/en16104060.
 
 
-## Repo Structure
+## Repository Structure
 <pre> 
 BuildingsBenchTutorial/
 │
@@ -38,7 +38,11 @@ BuildingsBenchTutorial/
 
 The BuildingsBenchTutorial repository contains two key subdirectories: (1) BuildingsBench and (2) Tutorials. You will not need to make any changes to the BuildingsBench directory; all development should take place within the Tutorials directory.
 
+### Tutorials
+
 The Tutorials directory contains two subdirectories: (1) Intro-Modules and (2) Deep-Learning-Modules. Please begin by reviewing the modules in Intro-Modules, as they cover foundational concepts that will help you complete the tutorials in the Deep-Learning-Modules directory.
+
+#### Intro-Modules
 
 Within Intro-Modules, you must first complete the Develop-Conda-Kernel.ipynb notebook and create a kernel, as this is required to run any of the remaining tutorials. After that, if you're already familiar with object-oriented programming, you may complete the tutorials in any order. However, the recommended sequence is:
 
@@ -47,3 +51,6 @@ Within Intro-Modules, you must first complete the Develop-Conda-Kernel.ipynb not
 - Intro-PyTorch.ipynb
 - Visualize-Time-Series-Data.ipynb
 - Intro-SLURM.ipynb
+
+#### Deep-Learning-Modules
+[TBD]
