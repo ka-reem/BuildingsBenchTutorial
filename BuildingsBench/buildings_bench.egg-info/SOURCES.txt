@@ -10,6 +10,8 @@ buildings_bench.egg-info/SOURCES.txt
 buildings_bench.egg-info/dependency_links.txt
 buildings_bench.egg-info/requires.txt
 buildings_bench.egg-info/top_level.txt
+buildings_bench.egg-info/.ipynb_checkpoints/PKG-INFO-checkpoint
+buildings_bench.egg-info/.ipynb_checkpoints/dependency_links-checkpoint.txt
 buildings_bench/configs/AveragePersistence.toml
 buildings_bench/configs/CopyLastDayPersistence.toml
 buildings_bench/configs/CopyLastWeekPersistence.toml
