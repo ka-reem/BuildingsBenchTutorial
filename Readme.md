@@ -5,6 +5,12 @@
 Short-Term Load Forecasting (STLF) is the process of predicting the electrical energy demand of residential and commercial buildings over short timeframes, ranging from the next hour to the next month [1][2][3]. STLF plays a vital role in efficient energy management [2][3], making it an important research area in the United States government's goal of achieving energy dominance. We leverage the BuildingsBench platform, developed by the National Renewable Energy Laboratory, a U.S. Department of Energy lab, to explore the role of deep learning in STLF [1]. This project will provide hands-on experience in object-oriented programming, working with the PyTorch and Matplotlib libraries, tuning model parameters, and training models on Graphics Processing Units (GPUs). It emphasizes practical implementation with minimal focus on theoretical foundations or extensive code development. Prior coding experience in Python is a plus, but no additional background is required.
 
 
+## Pre-requisites
+We assume you have experience using the command line and the vi editor, as well as some coding experience in at least one programming language. If you're not familiar with Unix or Python, we recommend reviewing introductory material on these topics before proceeding with the tutorials.
+
+- Basic Unix and Vim Skills: https://github.com/olcf/hands-on-with-frontier/tree/master/challenges/Basic_Unix_Vim#basic-unix-and-vim-skills
+- 
+
 ## Repository Structure
 <pre> 
 BuildingsBenchTutorial/
