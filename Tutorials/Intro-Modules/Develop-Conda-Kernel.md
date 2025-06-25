@@ -9,8 +9,6 @@ To open a terminal:
 
 ## Terminal 101
 
-
-
 ## `pip` 101
 
 `pip` is the standard package installer for Python. It allows you to install and manage additional libraries and dependencies that are not included in the Python standard library. To use `pip` on Perlmutter, first load the Python module by running module load python. Once the module is loaded, you can access `pip` from the terminal. Below is a list of essential commands for installing and managing packages in your environment.
