@@ -4,12 +4,13 @@ In this tutorial, you will create a `conda` kernel. Please do not skip this step
 
 To open a terminal:
 
-- In the notebook interface, click the “+” symbol on the top menu bar to open the Launcher.
+1) In the notebook interface, click the “+” symbol on the top menu bar to open the Launcher.
 
-<img src="../../Images/Open-Launcher.png" style="border: 2px solid black;">
+![View Launcher](../../Images/Open-Launcher.png)
 
 
-- A new Launcher window will appear—scroll down to the "Other" section and select the "Terminal" icon to launch a terminal session.
+2) A new Launcher window will appear—scroll down to the "Other" section and select the "Terminal" icon to launch a terminal session.
+
 ![View Launcher](../../Images/View-Launcher.png)
 
 
