@@ -58,7 +58,7 @@ __Intro-Object-Oriented-Programming:__ Object-Oriented Programming is foundation
 
 __Intro-PyTorch:__ In my opinion, PyTorch is the most widely used deep learning library today, and proficiency with it is essential—even for entry-level machine learning roles. While it’s not feasible to cover all of PyTorch’s capabilities in a single tutorial, this session will introduce you to one of its core components: the tensor—a fundamental data structure in deep learning.
 
-__Visualize-Time-Series-Data__: [TBD]
+__Visualize-Time-Series-Data__: In this tutorial, you will visualize time-series data to explore trends across holidays, buildings, and months. This type of analysis is a common practice, as it helps familiarize you with the data and supports informed decision-making during model development.
 
 __Intro-SLURM:__ SLURM is a resource manager used by some of the world’s fastest supercomputers, including Frontier at Oak Ridge National Laboratory and Perlmutter at Lawrence Berkeley National Laboratory. In this tutorial, you will learn how to create SLURM (sbatch) scripts and submit jobs through the SLURM workload manager.
 
