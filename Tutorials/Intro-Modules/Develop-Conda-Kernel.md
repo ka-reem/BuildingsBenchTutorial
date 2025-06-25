@@ -5,7 +5,8 @@ In this tutorial, you will create a `conda` kernel. Please do not skip this step
 To open a terminal:
 
 - In the notebook interface, click the “+” symbol on the top menu bar to open the Launcher.
-![Access Launcher](pscratch/sd/n/nrushad/BuildingsBenchTutorial/Images/Plus-Symbol-to-Launcher.png)
+
+![Access Launcher](BuildingsBenchTutorial/Images/Plus-Symbol-to-Launcher.png)
 
 
 - A new window will appear—scroll down and select the “Terminal” icon to launch a terminal session.
