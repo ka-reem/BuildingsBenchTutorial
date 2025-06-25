@@ -18,16 +18,6 @@ We will use `conda` and `pip` to install packages, and to create, manage, and up
 
 ## What are conda and pip?
 
-### `pip` 101
-
-`pip` is the standard package installer for Python. It allows you to install and manage additional libraries and dependencies that are not included in the Python standard library. To use `pip` on Perlmutter, first load the Python module by running module load python. Once the module is loaded, you can access `pip` from the terminal. Below is a list of essential commands for installing and managing packages in your environment.
-
-| Command          | Description                            |
-|------------------|----------------------------------------|
-| `pip install`    | Installs the specified Python package  |
-| `pip uninstall`  | Uninstalls the specified package       |
-| `pip show`       | Displays metadata about the package    |
-
 ### `conda` 101
 
 `conda` is a package and environment manager that allows you to install software packages and manage isolated environments. It helps avoid version conflicts and keeps your projects organized. This tutorial requires the use of the terminal. To use `conda` on Perlmutter, first load the Python module by running `module load python`. Once the module is loaded, you can access `conda` by typing `conda`. Below is a list of essential commands needed to create a `conda` kernel for running your tutorials and training deep learning models.
@@ -38,6 +28,16 @@ We will use `conda` and `pip` to install packages, and to create, manage, and up
 | `conda activate`              | Activate the environment        |
 | `conda deactivate`            | Deactivate the environment      |
 | `conda install`               | Install a package               |
+
+### `pip` 101
+
+`pip` is the standard package installer for Python. It allows you to install and manage additional libraries and dependencies that are not included in the Python standard library. To use `pip` on Perlmutter, first load the Python module by running module load python. Once the module is loaded, you can access `pip` from the terminal. Below is a list of essential commands for installing and managing packages in your environment.
+
+| Command          | Description                            |
+|------------------|----------------------------------------|
+| `pip install`    | Installs the specified Python package  |
+| `pip uninstall`  | Uninstalls the specified package       |
+| `pip show`       | Displays metadata about the package    |
 
 ## How to Create a Conda Kernel?
 
