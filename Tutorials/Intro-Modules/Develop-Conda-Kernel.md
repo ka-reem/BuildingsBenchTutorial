@@ -6,10 +6,12 @@ To open a terminal:
 
 - In the notebook interface, click the “+” symbol on the top menu bar to open the Launcher.
 
-![Access Launcher](../../Images/Open-Launcher.png)
+<img src="../../Images/Open-Launcher.png" style="border: 2px solid black;">
 
 
-- A new window will appear—scroll down and select the “Terminal” icon to launch a terminal session.
+- A new Launcher window will appear—scroll down to the "Other" section and select the "Terminal" icon to launch a terminal session.
+![View Launcher](../../Images/View-Launcher.png)
+
 
 We will use `conda` and `pip` to install packages, and to create, manage, and update the environment and kernel.
 
