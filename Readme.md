@@ -18,7 +18,7 @@ BuildingsBenchTutorial/
 ├── Tutorials/
 │   │
 │   ├── Intro-Modules/
-│   │   ├── Develop-Conda-Kernel.ipynb
+│   │   ├── Develop-Conda-Kernel.md
 │   │   ├── Intro-Object-Oriented-Programming.ipynb
 │   │   ├── Intro-Pytorch.ipynb
 │   │   ├── Intro-SLURM.ipynb
@@ -34,7 +34,7 @@ BuildingsBenchTutorial/
 └── README.md
 </pre>
 
-The BuildingsBenchTutorial repository contains two key subdirectories: (1) BuildingsBench and (2) Tutorials. You will not need to make any changes to the BuildingsBench directory; all development should take place within the Tutorials directory.
+The BuildingsBenchTutorial repository contains two key subdirectories: (1) BuildingsBench and (2) Tutorials. You won’t need to make any changes to the BuildingsBench directory; all development should be done within the Tutorials directory or directly in the terminal. 
 
 ### Tutorials
 
@@ -72,6 +72,4 @@ __Intro-SLURM:__ SLURM is a resource manager used by some of the world’s faste
 [3] Akhtar, Saima, et al. "Short-Term Load Forecasting Models: A Review of Challenges, Progress, and the Road Ahead."Energies, vol. 16, no. 10, 2023, p. 4060. https://doi.org/10.3390/en16104060.
 
 ## Authors 
-- Nrushad Joshi
-- Suzanne Parete-Koon
-- Thomas Fillers
+- Nrushad Joshi (ntj@ornl.gov)
