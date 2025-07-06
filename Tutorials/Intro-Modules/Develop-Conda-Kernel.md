@@ -97,7 +97,6 @@ Install the following modules:
 Run the following commands to view module information:
 
 `pip show numpy`
-
 `pip show pandas`
 
 Deactivate the `myEnv` environment.
