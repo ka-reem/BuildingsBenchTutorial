@@ -67,16 +67,19 @@ Install the required packages using both `pip` and `conda` as needed. Some packa
 
 ### STEP 4: Create a conda Kernel
 
-This command registers the `conda` environment as a Jupyter kernel, allowing it to be selected when running notebooks.
-`python -m ipykernel install --user --name env --display-name MyEnvironment`
+This command registers the `conda` environment as a Jupyter kernel, allowing it to be selected when running notebooks. The `ipykernel` package needs to be installed to successfully run this command:
+`python -m ipykernel install --user --name myEnv --display-name MyEnvironment`
 
-- python -m ipykernel install: Uses Python to install a new Jupyter kernel through the ipykernel module.
+- `python -m ipykernel install`: Uses Python to install a new Jupyter kernel through the `ipykernel` module.
 - `--user`: Installs the kernel for the current user only, without requiring administrative privileges.
-- `--name env`: Sets the internal name of the kernel (used by Jupyter to identify the environment). Replace env with the actual environment name (e.g., buildings_bench).
-- `--display-name MyEnvironment`: Sets the display name that will appear in the Jupyter interface. Replace MyEnvironment with a readable name, such as Buildings Bench.
+- `--name myEnv`: Enables Jupyter to identify the environment.
+- `--display-name MyEnvironment`: Sets the display name that will appear in the Jupyter interface.
+
 
 ### STEP 5: Confirm Kernel Creation
-Navigate to the Launcher, and under the Notebook section, the MyEnvironment kernel will be listed.
+Navigate to the Launcher, refresh the jupyter, and under the Notebook section, the MyEnvironment kernel will be listed.
+
+![View Launcher](../../Images/MyEnvironment-Kernel.png)
 
 ## Excersice 1: Create `myEnv` Environment 
 
