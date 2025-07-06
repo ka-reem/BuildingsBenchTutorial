@@ -8,11 +8,9 @@ To open a terminal:
 
 ![View Launcher](../../Images/Open-Launcher.png)
 
-
 2) A new Launcher window will appear—scroll down to the "Other" section and select the "Terminal" icon to launch a terminal session.
 
 ![View Launcher](../../Images/View-Launcher.png)
-
 
 We will use `conda` and `pip` to install packages and to create, manage, and update the environment and kernel. To use `conda` and `pip` on Perlmutter, first load the Python module by running `module load python`. Note that this is a SLURM-related command and is outside the scope of this tutorial; it is covered in detail in the `Intro-SLURM` tutorial. Once the module is loaded, you can access `conda` and `pip` by simply typing `conda` or `pip` in the terminal.
 
@@ -54,8 +52,12 @@ This step creates a new `conda` environment named `myEnv` with Python version 3.
 
 ### STEP 2: Activate Environmnet
 
-You activate a Conda environment to install and work with Python packages.
+Before installing any packages, make sure to activate your `conda` environment.
 - Activate: `conda activate myEnv`
+  
+The easiest and simplest approach to confirm that your environment is active is to look at your prompt. You will notice `(myEnv)` at the leftmost end of the prompt. This confirms that the environment is successfully activated.
+
+![View Launcher](../../Images/Active-Conda-Env.png)
 
 ### STEP 3: Install Packages
 
