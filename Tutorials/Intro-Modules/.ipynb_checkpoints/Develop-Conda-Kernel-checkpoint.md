@@ -75,9 +75,8 @@ This command registers the `conda` environment as a Jupyter kernel, allowing it 
 - `--name myEnv`: Enables Jupyter to identify the environment.
 - `--display-name MyEnvironment`: Sets the display name that will appear in the Jupyter interface.
 
-
 ### STEP 5: Confirm Kernel Creation
-Navigate to the Launcher, refresh the jupyter, and under the Notebook section, the MyEnvironment kernel will be listed.
+Navigate to the Launcher, refresh Jupyter, and under the Notebook section, the MyEnvironment kernel will be listed.
 
 ![View Launcher](../../Images/MyEnvironment-Kernel.png)
 
@@ -85,9 +84,7 @@ Navigate to the Launcher, refresh the jupyter, and under the Notebook section, t
 
 Create `conda` environment named `myEnv` with Python version 3.11.
 
-After activating the Conda environment, the environment name (e.g., (myEnv)) will appear before the terminal prompt. This indicates that the environment has been successfully activated.
-
-Once confirmed, create a file named `myFirstEnv.py` using the command `vi myFirstEnv.py`. Press `i` to enter insert mode, then type: `print("My First Conda Env")`. Press `Esc`, then type `:wq` to save and exit the editor. Finally, run the script using: `python3 myFirstEnv.py`
+After activating the the environment, create a file named `myFirstEnv.py` using the command `vi myFirstEnv.py`. Press `i` to enter insert mode, then type: `print("My First Conda Env")`. Press `Esc`, then type `:wq` to save and exit the editor. Finally, run the script using: `python3 myFirstEnv.py`
 
 Exected Output: `My First Conda Env`
 
