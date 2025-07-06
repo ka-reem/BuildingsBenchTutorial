@@ -1,6 +1,6 @@
 # Develop a Conda Kernel
 
-In this tutorial, you will create a `conda` kernel. Please do not skip this step, as the kernel you create in the final exercise will be required to complete the remaining tutorials and the final project. You will perform all tasks for this section in a terminal—not within this notebook.
+In this tutorial, you will create a `conda` kernel. Please do not skip this tutorial, as the kernel you create in the final exercise will be required to complete the remaining tutorials and the final project. You will perform all tasks for this section in a terminal—not within this notebook.
 
 To open a terminal:
 
@@ -82,9 +82,9 @@ Navigate to the Launcher, refresh Jupyter, and under the Notebook section, the M
 
 ## Excersice 1: Create `myEnv` Environment 
 
-Create `conda` environment named `myEnv` with Python version 3.11.
+Create a `conda` environment named `myEnv` with Python version 3.11.
 
-After activating the the environment, create a file named `myFirstEnv.py` using the command `vi myFirstEnv.py`. Press `i` to enter insert mode, then type: `print("My First Conda Env")`. Press `Esc`, then type `:wq` to save and exit the editor. Finally, run the script using: `python3 myFirstEnv.py`
+After activating the environment, create a file named `myFirstEnv.py` using the command `vi myFirstEnv.py`. Press `i` to enter insert mode, then type: `print("My First Conda Env")`. Press `Esc`, then type `:wq` to save and exit the editor. Finally, run the script using: `python3 myFirstEnv.py`
 
 Exected Output: `My First Conda Env`
 
@@ -105,6 +105,7 @@ Deactivate the `myEnv` environment.
 Create a `conda` environment named `BuildingsBenchEnv` with Python version 3.10.
 
 Install the following modules using pip (preferred) or conda if necessary. The versions of numpy and scipy have been intentionally specified—please do not modify them, and do not change the order of installation. Using the latest versions or altering the order may lead to errors. For simplicity, the specific error details are not explained here, but if interested, refer to this document: https://github.com/3dem/relion/issues/1226.
+
 - `numpy==1.26.0`
 - `scipy==1.11.2`
 - `ipykernel`
