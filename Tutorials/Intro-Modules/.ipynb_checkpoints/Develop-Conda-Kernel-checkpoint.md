@@ -39,7 +39,7 @@ We will use `conda` and `pip` to install packages and to create, manage, and upd
 
 ## How to Create a Conda Kernel?
 
-It is important to ensure that the Python module has been loaded before proceeding.
+This section will showcase the essential steps to create a `conda` environment. Please read through this section first and refer to it when completing the exercises. It is important to ensure that the Python module has been loaded before proceeding.
 
 ### STEP 1: Create a Conda Environment
 
