@@ -18,9 +18,9 @@ We will use `conda` and `pip` to install packages and to create, manage, and upd
 
 ## What are conda and pip?
 
-### `conda` 101
+### `conda`
 
-`conda` is a package and environment manager that allows you to install software packages, avoid version conflicts, and manage isolated environments. Below is a list of essential commands needed to create a `conda` kernel for running your tutorials and training deep learning models.
+`conda` is a package and environment manager that allows you to install software packages, avoid version conflicts, and manage isolated environments. Below is a list of essential commands needed to create a `conda` kernel for running your tutorials.
 
 | Command                       | Description                     |
 |-------------------------------|---------------------------------|
@@ -29,7 +29,7 @@ We will use `conda` and `pip` to install packages and to create, manage, and upd
 | `conda deactivate`            | Deactivate the environment      |
 | `conda install`               | Install a package               |
 
-### `pip` 101
+### `pip`
 
 `pip` is the standard package installer for Python. It allows you to install and manage additional libraries and dependencies that are not included in the Python standard library. Below is a list of essential commands for installing and managing packages in your environment.
 
@@ -41,9 +41,9 @@ We will use `conda` and `pip` to install packages and to create, manage, and upd
 
 ## How to Create a Conda Kernel?
 
-### STEP 1: Create a Conda Environment
-
 It is important to ensure that the Python module has been loaded before proceeding.
+
+### STEP 1: Create a Conda Environment
 
 This step creates a new `conda` environment named `myEnv` with Python version 3.11:
 - `-n myEnv`  specifies the name of the environment.
