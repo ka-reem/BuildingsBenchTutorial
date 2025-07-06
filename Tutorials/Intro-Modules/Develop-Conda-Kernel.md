@@ -88,11 +88,7 @@ After activating the the environment, create a file named `myFirstEnv.py` using 
 
 Exected Output: `My First Conda Env`
 
-Deactivate the `myEnv` environment. 
-
 ## Excersice 2: Install Python Packages in `myEnv` Environment 
-
-Activate the myEnv environment.
 
 Install the following modules:
 `numpy==2.0.0`
