@@ -14,7 +14,7 @@ To open a terminal:
 ![View Launcher](../../Images/View-Launcher.png)
 
 
-We will use `conda` and `pip` to install packages and to create, manage, and update the environment and kernel. To use `conda` and `pip` on Perlmutter, first load the Python module by running `module load python`. Note that this is a SLURM-related command and is outside the scope of this tutorial; it is covered in detail in the `Intro-SLURM` tutorial. Once the module is loaded, you can access `conda` and `pip` by simply typing conda or pip in the terminal.
+We will use `conda` and `pip` to install packages and to create, manage, and update the environment and kernel. To use `conda` and `pip` on Perlmutter, first load the Python module by running `module load python`. Note that this is a SLURM-related command and is outside the scope of this tutorial; it is covered in detail in the `Intro-SLURM` tutorial. Once the module is loaded, you can access `conda` and `pip` by simply typing `conda` or `pip` in the terminal.
 
 ## What are conda and pip?
 
