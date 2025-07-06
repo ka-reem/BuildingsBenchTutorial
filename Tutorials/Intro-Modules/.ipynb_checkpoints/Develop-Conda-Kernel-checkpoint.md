@@ -61,8 +61,8 @@ The easiest and simplest approach to confirm that your environment is active is 
 
 ### STEP 3: Install Packages
 
-Install the required packages using both `pip` and `conda` as needed. Some packages are available through `conda` channels, while others may need to be installed via `pip`.
-- Using `pip`: `pip install ipykernel`
+Install the required packages using both `pip` and `conda` as needed. Some packages are available through `conda` channels, while others may need to be installed via `pip`. 
+- Using `pip`: `pip install awscli==1.41.2`
 - Using `conda`: `conda install conda-forge::lightgbm`
 
 ### STEP 4: Create a conda Kernel
@@ -91,13 +91,13 @@ Exected Output: `My First Conda Env`
 ## Excersice 2: Install Python Packages in `myEnv` Environment 
 
 Install the following modules:
-`numpy==2.0.0`
-`pandas==2.1.3`
+- `numpy==2.0.0`
+- `pandas==2.1.3`
 
 Run the following commands to view module information:
 
-`pip show numpy`
-`pip show pandas`
+- `pip show numpy`
+- `pip show pandas`
 
 Deactivate the `myEnv` environment.
 
