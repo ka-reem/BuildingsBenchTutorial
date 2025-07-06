@@ -14,13 +14,13 @@ To open a terminal:
 ![View Launcher](../../Images/View-Launcher.png)
 
 
-We will use `conda` and `pip` to install packages, and to create, manage, and update the environment and kernel.
+We will use `conda` and `pip` to install packages and to create, manage, and update the environment and kernel. To use `conda` and `pip` on Perlmutter, first load the Python module by running `module load python`. Note that this is a SLURM-related command and is outside the scope of this tutorial; it is covered in detail in the `Intro to SLURM` tutorial. Once the module is loaded, you can access `conda` and `pip` by simply typing conda or pip in the terminal.
 
 ## What are conda and pip?
 
 ### `conda` 101
 
-`conda` is a package and environment manager that allows you to install software packages and manage isolated environments. It helps avoid version conflicts and keeps your projects organized. This tutorial requires the use of the terminal. To use `conda` on Perlmutter, first load the Python module by running `module load python`. Once the module is loaded, you can access `conda` by typing `conda`. Below is a list of essential commands needed to create a `conda` kernel for running your tutorials and training deep learning models.
+`conda` is a package and environment manager that allows you to install software packages, avoid version conflicts, and manage isolated environments. Below is a list of essential commands needed to create a `conda` kernel for running your tutorials and training deep learning models.
 
 | Command                       | Description                     |
 |-------------------------------|---------------------------------|
@@ -31,7 +31,7 @@ We will use `conda` and `pip` to install packages, and to create, manage, and up
 
 ### `pip` 101
 
-`pip` is the standard package installer for Python. It allows you to install and manage additional libraries and dependencies that are not included in the Python standard library. To use `pip` on Perlmutter, first load the Python module by running module load python. Once the module is loaded, you can access `pip` from the terminal. Below is a list of essential commands for installing and managing packages in your environment.
+`pip` is the standard package installer for Python. It allows you to install and manage additional libraries and dependencies that are not included in the Python standard library. Below is a list of essential commands for installing and managing packages in your environment.
 
 | Command          | Description                            |
 |------------------|----------------------------------------|
