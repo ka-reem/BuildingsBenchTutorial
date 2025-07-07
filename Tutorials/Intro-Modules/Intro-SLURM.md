@@ -1,10 +1,17 @@
 # SLURM 101
 
-The goals of this exercise are as follows:
-- Familiarize yourself with batch scripts.
-- Understand how to modify and submit an existing batch script.
-- Learn how to run a job using Slurm.
-- Explore job layout on a node and understand how to query the queue for your job’s status and interpret the results.
+The goal of this exercise is to learn how to reserve compute resources on a supercomputer using SLURM. This tutorial focuses specifically on the batch script, which allows you to run jobs on compute nodes in the background. You will perform all tasks for this section in a terminal—not within this notebook.
+
+To open a terminal:
+
+1) In the notebook interface, click the “+” symbol on the top menu bar to open the Launcher.
+
+![View Launcher](../../Images/Open-Launcher.png)
+
+2) A new Launcher window will appear—scroll down to the "Other" section and select the "Terminal" icon to launch a terminal session.
+
+![View Launcher](../../Images/View-Launcher.png)
+
 
 Perlmutter uses SchedMD's Slurm Workload Manager for job scheduling and management. Slurm provides functionality similar to other schedulers such as IBM’s LSF but offers unique control over Perlmutter’s resources through custom commands and options. Slurm documentation for each command is available via the man utility and online at: https://slurm.schedmd.com/man_index.html. Additional documentation can be found at: https://slurm.schedmd.com/documentation.html. 
 
