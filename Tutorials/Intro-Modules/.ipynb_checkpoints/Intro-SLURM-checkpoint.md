@@ -13,21 +13,22 @@ To open a terminal:
 ![View Launcher](../../Images/View-Launcher.png)
 
 
-Perlmutter uses SchedMD's Slurm Workload Manager for job scheduling and management. Slurm provides functionality similar to other schedulers such as IBM’s LSF but offers unique control over Perlmutter’s resources through custom commands and options. Slurm documentation for each command is available via the man utility and online at: https://slurm.schedmd.com/man_index.html. Additional documentation can be found at: https://slurm.schedmd.com/documentation.html. 
+Perlmutter uses SchedMD's Slurm Workload Manager for job scheduling and management. SLURM provides functionality similar to other schedulers, such as IBM’s LSF, while offering unique control over Perlmutter’s resources through custom commands and options. The documentation for each SLURM command is available via the man utility and online at: https://slurm.schedmd.com/man_index.html. Additional documentation can be found at: https://slurm.schedmd.com/documentation.html. 
 
 Some common Slurm commands are summarized below:
 
 Command     | Action/Task
 ------------|------------------------------
-squeue      | Show the current job queue
-sbatch      | Submit a batch script
-srun        | Launch a parallel job
-sacct       | View accounting information for jobs or job steps
-scancel     | Cancel a job or job step
+`squeue`      | Show the current job queue
+`sbatch`      | Submit a batch script
+`srun`        | Launch a parallel job
+`sacct`       | View accounting information for jobs or job steps
+`scancel`    | Cancel a job or job step
 
 The most common way to interact with the batch system is via batch scripts. A batch script is simply a shell script with added directives to request various resources from, or provide specific information to, the scheduling system. Aside from these directives, the batch script consists of the series of commands needed to set up and run your job.
 
-The example batch script, submit.sl looks like this:
+The example batch script, `submit.sl` looks like this:
+
 ```bash
 #!/bin/bash
 
@@ -60,21 +61,20 @@ In the script, Slurm directives are preceded by `#SBATCH`, making them appear as
 
 A job transitions through several states during its lifetime. Common ones include:
 
-| Code | State      | Description                                                            |
-|------|------------|------------------------------------------------------------------------|
-| CA   | Canceled   | The job was canceled (either by the user or an administrator)          |
-| CD   | Completed  | The job completed successfully (exit code 0)                           |
-| CG   | Completing | The job is in the process of completing (some processes still running) |
-| PD   | Pending    | The job is waiting for resources to be allocated                       |
-| R    | Running    | The job is currently running                                            |
+| Code   | State      | Description                                                            |
+|------  |------------|------------------------------------------------------------------------|
+| `CA`   | Canceled   | The job was canceled (either by the user or an administrator)          |
+| `CD`   | Completed  | The job completed successfully (exit code 0)                           |
+| `CG`   | Completing | The job is in the process of completing (some processes still running) |
+| `PD`   | Pending    | The job is waiting for resources to be allocated                       |
+| `R`    | Running    | The job is currently running                                            |
 
-You can view the current status of a job using the `squeue` command.
+You can view the current status of a job using the `squeue -u $USER` command.
+
 
 ## Exercise 1: Create a SLURM Script
 
-Create a batch script named `hello_world.sl`, open a terminal and type `vi hello_world.sl`. 
-
-Press `i` to enter insert mode, then paste the following script and update all `<update>` fields with appropriate values before saving.
+Create a batch script named `hello_world.sl`, copy the content from the provided script, and update all `<update>` fields accordingly. Then, run the script and visualize the outcome.
 
 ```bash
 #!/bin/bash
@@ -89,15 +89,15 @@ Press `i` to enter insert mode, then paste the following script and update all `
 srun -n 4 -c 1 bash -c 'echo "Hostname: $(hostname), Task: $SLURM_PROCID says Hello World"'
 ```
 
-Save and exit `vi`: Press `Esc`, then type `:wq` and press `Enter`
-
-Submit the script:`sbatch hello_world.sl`
-
-View output after completion: `cat hello_world_output.out`
-
 ## Exercise 2: Explore Slurm Commands
 
-Follow the steps outlined in Exercise 1 to create a SLURM batch script named `explore_command.sl`, add the script below to the file, and save it.
+Create a SLURM batch script named `explore_command.sl`, copy the content from the provided script, and update all `<update>` fields accordingly. Then, run the script and monitor the status of your job using the `squeue` command. 
+
+The `squeue` command lists your active jobs. Look for the `JOBID` in the output. Once you have the `JOBID`, you can explore additional SLURM commands:
+- View detailed information about the job, including allocated nodes, resources, and state: `scontrol show job <JOBID>`
+- Cancel the job before it finishes if needed: `scancel <JOBID>`
+
+Note: This job runs for only 7 minutes. After that, it will no longer appear in active job queries. If needed, you can re-run the job by submitting the same script again with the same command.
 
 ```bash
 #!/bin/bash
@@ -111,19 +111,10 @@ Follow the steps outlined in Exercise 1 to create a SLURM batch script named `ex
 
 sleep 420
 ```
-Now, execute the SLURM script using the following command: `sbatch explore_command.sl`
-
-Note: This job runs for only 7 minutes. After that, it will no longer appear in active job queries. If needed, you can re-run the job by submitting the same script again with the same command.
-
-- Monitor your job while it is running, use: `squeue -u $USER`.
-
-The `squeue` command lists your active jobs. Look for the `JOBID` in the output. Once you have the `JOBID`, you can explore additional SLURM commands:
-- View detailed information about the job, including allocated nodes, resources, and state: `scontrol show job <JOBID>`
-- Cancel the job before it finishes if needed: `scancel <JOBID>`
 
 ## Exercise 3: Train a Deep Learning Model
 
-Follow the steps outlined in Exercise 1 to create a SLURM batch script named train_model.sl, add the script below to the file, and save it. The script introduces four new SLURM flags, which are explained below.
+Create a SLURM batch script named `train_model.sl`, copy the content from the provided template, update all `<update>` fields as needed, and then run the script.
 
 | **SLURM Flag**      | **Description**                                                                 |
 | ------------------- | ------------------------------------------------------------------------------- |
@@ -138,7 +129,7 @@ Follow the steps outlined in Exercise 1 to create a SLURM batch script named tra
 #SBATCH --account=<update>               # Set your account name
 #SBATCH --job-name=<update>              # Set a descriptive job name
 #SBATCH --output=train_model.out         # Fixed output filename (overwrites if job is rerun)
-#SBATCH --time=<update>                  # Set the walltime to 5 minutes
+#SBATCH --time=<update>                  # Set the walltime to 30 minutes
 #SBATCH --partition=<update>             # Use the regular partition
 #SBATCH --nodes=<update>                 # Request 1 compute node
 #SBATCH --constraint=<update>            # Set gpu constraint 
@@ -160,3 +151,5 @@ srun python3 scripts/pretrain.py \
     --num_buildings=1000 \
 	--disable_wandb 
 ```
+
+You have successfully trained a deep learning model. To test that the model has been trained, run `python3 ../../BuildingsBench/scripts/zero_shot.py --model MyModel`. This command will begin the model evaluation. The efficacy of the model is outside the scope of this tutorial, so you may disregard the poor performance.
