@@ -49,7 +49,9 @@ Tools like ChatGPT and Gemini are becoming more common in everyday work. Learnin
 ## References
 
 [1] Emami, Patrick, Abhijeet Sahu, and Peter Graf. "BuildingsBench: A Large-Scale Dataset of 900K Buildings and Benchmark for Short-Term Load Forecasting." arXiv preprint arXiv:2307.00142 (2023). 
+
 [2] Gross, George, and F. D. Galiana. "Short-Term Load Forecasting." Proceedings of the IEEE, vol. 75, no. 12, 1987, pp. 1558–1573.
+
 [3] Akhtar, Saima, et al. "Short-Term Load Forecasting Models: A Review of Challenges, Progress, and the Road Ahead."Energies, vol. 16, no. 10, 2023, p. 4060. https://doi.org/10.3390/en16104060.
 
 ## Authors 
