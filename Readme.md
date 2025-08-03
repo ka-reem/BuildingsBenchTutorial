@@ -23,7 +23,7 @@ BuildingsBenchTutorial/
 │   │   ├── Intro-Pytorch.ipynb    
 │   │   └── Intro-NN.ipynb
 │   │
-│   └── Deep-Learning-Modules/
+│   └── Final-Project-Modules/
 │       ├── EDA-Dataset.ipynb
 │       ├── Train-Model.ipynb
 │       └── Post-Data-Analysis.ipynb
@@ -35,39 +35,18 @@ BuildingsBenchTutorial/
 
 The BuildingsBenchTutorial repository contains two key subdirectories: (1) BuildingsBench and (2) Tutorials. You won’t need to make any changes to the BuildingsBench directory; all development should be done within the Tutorials directory or directly in the terminal. 
 
-### Tutorials
+## Tutorials
+The Tutorials directory contains two subdirectories: (1) Intro-Modules and (2) Final-Project-Modules. Please begin by reviewing the modules in Intro-Modules directory, as they cover foundational concepts that will help you successfully complete the final project task notebooks in the Final-Project-Modules section.
 
-The Tutorials directory contains two subdirectories: (1) Intro-Modules and (2) Deep-Learning-Modules. Please begin by reviewing the modules in Intro-Modules, as they cover foundational concepts that will help you complete the tutorials in the Deep-Learning-Modules directory.
+## Expectations
+The final project will be a collaborative effort. We expect each group member to contribute their best in completing their assigned section of the project. However, we understand that many participants may not have prior experience in programming or computer science. Therefore, please don’t feel stressed if you’re unable to complete all the tasks—just do your best and support your team where you can.We encourage internal collaboration among team members, but we strongly discourage anyone from taking over or completing tasks assigned to other group members.
 
-### Intro-Modules
-
-Within Intro-Modules, `you must first complete the Develop-Conda-Kernel.ipynb notebook and create a kernel, as this is required to run any of the remaining tutorials. After that`, if you're already familiar with `object-oriented programming` and `PyTorch`, you may complete the tutorials in any order. However, the recommended sequence is:
-
-- Develop-Conda-Kernel.ipynb
-- Intro-Object-Oriented-Programming.ipynb
-- Visualize-Time-Series-Data.ipynb
-- Intro-PyTorch.ipynb
-- Intro-NN.ipynb
-
-__Develop-Conda-Kernel Tutorial:__ One of the initial technical tasks in developing deep learning models is setting up a dedicated Conda environment. In this tutorial, you will learn how to create a Conda environment and convert it into a Conda kernel that can be used to run other tutorials on NERSC JupyterHub. __Do not skip__ this step, as the kernel is required to run the subsequent tutorials.
-
-__Intro-Object-Oriented-Programming:__ Object-Oriented Programming is foundational for writing modular and scalable machine learning code. In this tutorial, you’ll explore its core fundamentals through practical examples.
-
-__Intro-PyTorch:__ In my opinion, PyTorch is the most widely used deep learning library today, and proficiency with it is essential—even for entry-level machine learning roles. While it’s not feasible to cover all of PyTorch’s capabilities in a single tutorial, this session will introduce you to one of its core components: the tensor, a fundamental data structure in deep learning.
-
-__Intro-NN:__ One of the most critical components in machine learning development is selecting the optimal model architecture and identifying the right features to build an effective and efficient model. In this tutorial, you will gain hands-on experience experimenting with model architectures, various optimizers, loss functions, and training epochs to determine the most effective configuration.  
-
-__Visualize-Time-Series-Data__: In this tutorial, you will visualize time-series data to explore trends across holidays, buildings, and months. This type of analysis is a common practice, as it helps familiarize you with the data and supports informed decision-making during model development.
-
-### Deep-Learning-Modules
-
+Tools like ChatGPT and Gemini are becoming more common in everyday work. Learning how to use AI effectively is becoming just as important as learning to code. We encourage you to use AI tools to help with your tasks. Using other online resources is also permitted and encouraged.
 
 ## References
 
 [1] Emami, Patrick, Abhijeet Sahu, and Peter Graf. "BuildingsBench: A Large-Scale Dataset of 900K Buildings and Benchmark for Short-Term Load Forecasting." arXiv preprint arXiv:2307.00142 (2023). 
-
 [2] Gross, George, and F. D. Galiana. "Short-Term Load Forecasting." Proceedings of the IEEE, vol. 75, no. 12, 1987, pp. 1558–1573.
-
 [3] Akhtar, Saima, et al. "Short-Term Load Forecasting Models: A Review of Challenges, Progress, and the Road Ahead."Energies, vol. 16, no. 10, 2023, p. 4060. https://doi.org/10.3390/en16104060.
 
 ## Authors 
