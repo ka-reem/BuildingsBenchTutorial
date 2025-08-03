@@ -21,19 +21,21 @@ BuildingsBenchTutorial/
 │   │   ├── Intro-Object-Oriented-Programming.ipynb
 │   │   ├── Visualize-Time-Series-Data.ipynb
 │   │   ├── Intro-Pytorch.ipynb    
-│   │   └── Intro-NN.ipynb
+│   │   ├── Intro-NN.ipynb
+│   │   └── Readme.md
 │   │
 │   └── Final-Project-Modules/
 │       ├── EDA-Dataset.ipynb
 │       ├── Train-Model.ipynb
-│       └── Post-Data-Analysis.ipynb
+│       ├── Post-Data-Analysis.ipynb
+│       └── Readme.md    
 │
-├── BuildingBench/
+├── Images/
 │
 └── README.md
 </pre>
 
-The BuildingsBenchTutorial repository contains two key subdirectories: (1) BuildingsBench and (2) Tutorials. You won’t need to make any changes to the BuildingsBench directory; all development should be done within the Tutorials directory or directly in the terminal. 
+The BuildingsBenchTutorial repository contains two subdirectories: (1) Images and (2) Tutorials. You won’t need to make any changes to the Images directory; all development should be done within the Tutorials directory or directly in the terminal. 
 
 ## Tutorials
 The Tutorials directory contains two subdirectories: (1) Intro-Modules and (2) Final-Project-Modules. Please begin by reviewing the modules in Intro-Modules directory, as they cover foundational concepts that will help you successfully complete the final project task notebooks in the Final-Project-Modules section.
