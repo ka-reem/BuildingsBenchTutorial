@@ -44,7 +44,7 @@ The final project will be a collaborative effort. We expect each group member to
 Tools like ChatGPT and Gemini are becoming more common in everyday work. Learning how to use AI effectively is becoming just as important as learning to code. We encourage you to use AI tools to help with your tasks. Using other online resources is also permitted and encouraged.
 
 
-#### Next: Tutorials/Intro-Modules/Readme.md
+#### Next: Tutorials/Intro-Modules/
 
 ## References
 
