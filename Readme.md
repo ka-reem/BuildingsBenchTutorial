@@ -4,12 +4,11 @@
 
 Short-Term Load Forecasting (STLF) is the process of predicting the electrical energy demand of residential and commercial buildings over short timeframes, ranging from the next hour to the next month [1][2][3]. STLF plays a vital role in efficient energy management [2][3], making it an important research area in the United States government's goal of achieving energy dominance. We leverage the BuildingsBench platform, developed by the National Renewable Energy Laboratory, a U.S. Department of Energy lab, to explore the role of deep learning in STLF [1]. This project will provide hands-on experience in object-oriented programming, working with the PyTorch and Matplotlib libraries, tuning model parameters, and training models on Graphics Processing Units (GPUs). It emphasizes practical implementation with minimal focus on theoretical foundations or extensive code development. Prior coding experience in Python is a plus, but no additional background is required.
 
-
 ## Pre-requisites
-We assume you have experience using the command line and the vi editor, as well as some coding experience in at least one programming language. If you're not familiar with Unix or Python, we recommend reviewing introductory material on these topics before proceeding with the tutorials.
+We assume you have experience using the command line, as well as some coding experience in at least one programming language. If you're not familiar with Unix or Python, we recommend reviewing introductory material on these topics before proceeding with the tutorials.
 
-- Basic Unix and Vim Skills: https://github.com/olcf/hands-on-with-frontier/tree/master/challenges/Basic_Unix_Vim#basic-unix-and-vim-skills
-- https://www.geeksforgeeks.org/python/python-programming-language-tutorial/
+- Basic Unix: `https://github.com/olcf/hands-on-with-frontier/tree/master/challenges/Basic_Unix_Vim#basic-unix-and-vim-skills`
+- Intro to Python: `https://www.geeksforgeeks.org/python/python-programming-language-tutorial/`
 
 ## Repository Structure
 <pre> 
@@ -21,10 +20,13 @@ BuildingsBenchTutorial/
 │   │   ├── Develop-Conda-Kernel.md
 │   │   ├── Intro-Object-Oriented-Programming.ipynb
 │   │   ├── Visualize-Time-Series-Data.ipynb
-│   │   └── Intro-Pytorch.ipynb
+│   │   ├── Intro-Pytorch.ipynb    
+│   │   └── Intro-NN.ipynb
 │   │
 │   └── Deep-Learning-Modules/
-│       └── Train-Model.ipynb
+│       ├── EDA-Dataset.ipynb
+│       ├── Train-Model.ipynb
+│       └── Post-Data-Analysis.ipynb
 │
 ├── BuildingBench/
 │
@@ -39,13 +41,13 @@ The Tutorials directory contains two subdirectories: (1) Intro-Modules and (2) D
 
 ### Intro-Modules
 
-Within Intro-Modules, you must first complete the Develop-Conda-Kernel.ipynb notebook and create a kernel, as this is required to run any of the remaining tutorials. After that, if you're already familiar with object-oriented programming, you may complete the tutorials in any order. However, the recommended sequence is:
+Within Intro-Modules, `you must first complete the Develop-Conda-Kernel.ipynb notebook and create a kernel, as this is required to run any of the remaining tutorials. After that`, if you're already familiar with `object-oriented programming` and `PyTorch`, you may complete the tutorials in any order. However, the recommended sequence is:
 
 - Develop-Conda-Kernel.ipynb
 - Intro-Object-Oriented-Programming.ipynb
-- Intro-PyTorch.ipynb
 - Visualize-Time-Series-Data.ipynb
-- Intro-SLURM.ipynb
+- Intro-PyTorch.ipynb
+- Intro-NN.ipynb
 
 __Develop-Conda-Kernel Tutorial:__ One of the initial technical tasks in developing deep learning models is setting up a dedicated Conda environment. In this tutorial, you will learn how to create a Conda environment and convert it into a Conda kernel that can be used to run other tutorials on NERSC JupyterHub. __Do not skip__ this step, as the kernel is required to run the subsequent tutorials.
 
@@ -53,10 +55,12 @@ __Intro-Object-Oriented-Programming:__ Object-Oriented Programming is foundation
 
 __Intro-PyTorch:__ In my opinion, PyTorch is the most widely used deep learning library today, and proficiency with it is essential—even for entry-level machine learning roles. While it’s not feasible to cover all of PyTorch’s capabilities in a single tutorial, this session will introduce you to one of its core components: the tensor, a fundamental data structure in deep learning.
 
+__Intro-NN:__ One of the most critical components in machine learning development is selecting the optimal model architecture and identifying the right features to build an effective and efficient model. In this tutorial, you will gain hands-on experience experimenting with model architectures, various optimizers, loss functions, and training epochs to determine the most effective configuration.  
+
 __Visualize-Time-Series-Data__: In this tutorial, you will visualize time-series data to explore trends across holidays, buildings, and months. This type of analysis is a common practice, as it helps familiarize you with the data and supports informed decision-making during model development.
 
 ### Deep-Learning-Modules
-[TBD]
+
 
 ## References
 
