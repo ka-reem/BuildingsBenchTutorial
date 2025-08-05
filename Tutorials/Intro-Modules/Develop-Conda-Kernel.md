@@ -39,7 +39,7 @@ We will use `conda` and `pip` to install packages and to create, manage, and upd
 
 ## How to Create a Conda Kernel?
 
-This section will showcase the essential steps to create a `conda` environment. Please read through this section first and refer to it when completing the exercises. It is important to ensure that the Python module has been loaded before proceeding.
+## This section will showcase the essential steps to create a `conda` environment. Please read through this section first and refer to it when completing the exercises. It is important to ensure that the Python module has been loaded before proceeding.
 
 ### STEP 1: Create a Conda Environment
 
@@ -101,6 +101,8 @@ Run the following commands to view module information:
 
 Deactivate the `myEnv` environment.
 
+Exercises 1 and 2 teach you how to create an environment and install modules within it. You will apply these skills to create a `BuildingBenchEnv` environment and set up a kernel using it. This kernel, `BuildingsBenchKernel`, will be used for all exercises and final project tasks.
+
 ## Excersice 3: Create `BuildingsBenchKernel` Kernel
 
 Create a `conda` environment named `BuildingsBenchEnv` with Python version 3.10.
@@ -114,8 +116,9 @@ Install the following modules using pip (preferred) or conda if necessary. The v
 - `buildings_bench` 
 
 Please follow these steps to install `buildings_bench`. This will allow installation of the module in editable mode within the `conda` environment.
-- `git clone https://github.com/NREL/BuildingsBench.git`
-- `cd BuildingsBench`
+
+-  In the terminal, first navigate to the BuildingsBench repository.
+Assuming you are currently in the Intro-Modules directory, run the following command to move to the BuildingsBench repository: `cd ../../BuildingsBench/`
 - `pip install -e ".[benchmark]"`
   
 Create a Jupyter kernel named `BuildingsBenchKernel`, and confirm that it appears in the list of available kernels within the Jupyter interface.
