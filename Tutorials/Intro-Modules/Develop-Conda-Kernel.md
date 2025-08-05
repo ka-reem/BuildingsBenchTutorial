@@ -117,8 +117,7 @@ Install the following modules using pip (preferred) or conda if necessary. The v
 
 Please follow these steps to install `buildings_bench`. This will allow installation of the module in editable mode within the `conda` environment.
 
--  In the terminal, first navigate to the BuildingsBench repository.
-Assuming you are currently in the Intro-Modules directory, run the following command to move to the BuildingsBench repository: `cd ../../BuildingsBench/`
+-  In the terminal, first navigate to the BuildingsBench repository. Assuming you are currently in the `Intro-Modules` directory, run the following command to move to the BuildingsBench repository: `cd ../../BuildingsBench/`
 - `pip install -e ".[benchmark]"`
   
 Create a Jupyter kernel named `BuildingsBenchKernel`, and confirm that it appears in the list of available kernels within the Jupyter interface.
