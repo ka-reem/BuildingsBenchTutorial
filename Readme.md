@@ -32,12 +32,13 @@ BuildingsBenchTutorial/
 │
 ├── Images/
 │
+├── BuildingsBench/
+│    
 └── README.md
 </pre>
 
-The BuildingsBenchTutorial repository contains two subdirectories: (1) Images and (2) Tutorials. You won’t need to make any changes to the Images directory; all development should be done within the Tutorials directory or directly in the terminal. 
+The BuildingsBenchTutorial repository contains three subdirectories: (1) Images (2) Tutorials and (3) BuildingsBench. You do not need to make any changes to the Images or BuildingsBench directories. All development should be done within the Tutorials directory or directly from the terminal. However, to install the module, you will need to cd into the BuildingsBench directory and run the appropriate pip command. For more information, refer to Exercise 3 in the Develop-Conda-Kernel.md file when working on the Develop-Conda-Kernel tutorial.
 
-## Tutorials
 The Tutorials directory contains two subdirectories: (1) Intro-Modules and (2) Final-Project-Modules. Please begin by reviewing the modules in Intro-Modules directory, as they cover foundational concepts that will help you successfully complete the final project task notebooks in the Final-Project-Modules section.
 
 ## Expectations
@@ -46,7 +47,7 @@ The final project will be a collaborative effort. We expect each group member to
 Tools like ChatGPT and Gemini are becoming more common in everyday work. Learning how to use AI effectively is becoming just as important as learning to code. We encourage you to use AI tools to help with your tasks. Using other online resources is also permitted and encouraged.
 
 
-#### Next: Tutorials/Intro-Modules/
+## Next Step: Tutorials/Intro-Modules/
 
 ## References
 
@@ -58,3 +59,4 @@ Tools like ChatGPT and Gemini are becoming more common in everyday work. Learnin
 
 ## Authors 
 - Nrushad Joshi (ntj@ornl.gov)
+- Suzanne Parete-Koon
