@@ -12,10 +12,10 @@ The first three assignments must be completed individually, while the Best-Overa
 
 For the group project, all team members will complete the same set of tasks. However, to avoid redundancy, each member will work with a different dataset. Before moving forward, gather as a team and decide which dataset each member will choose. Each team member should select one of the five available datasets, which are:
 
-- Member-ideal: Ideal dataset
-- Member-electricity: Electricity dataset
-- Member-lcl: LCL dataset
-- Member-sceaux: Sceaux dataset
-- Member-borealis: Borealis dataset
+- `Member-ideal`: `Ideal` dataset
+- `Member-electricity`: `Electricity` dataset
+- `Member-lcl`: `LCL` dataset
+- `Member-sceaux`: `Sceaux` dataset
+- `Member-borealis`: `Borealis` dataset
 
 Make sure that no two members select the same dataset.
