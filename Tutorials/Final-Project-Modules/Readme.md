@@ -3,10 +3,10 @@ You are now ready to begin your final project. Before you get started, ensure yo
 - Comfortable with `OOP`, `PyTorch`, `Matplotlib`, and `NN` model architectures
 
 There are four assignments in this directory that must be completed in the following sequence to finish the project:
-- Explore-Dataset.ipynb
-- Train-Model.ipynb
-- Select-Model.ipynb
-- Best-Overall-Model.md (Group Assignment)
+- `Explore-Dataset.ipynb`
+- `Train-Model.ipynb`
+- `Select-Model.ipynb`
+- `Best-Overall-Model.md` (Group Assignment)
 
 The first three assignments must be completed individually, while the Best-Overall-Model.md will be a group task. These individual tasks are essential for completing the group assignment. The first task is to perform exploratory data analysis (EDA) on the designated dataset(s), followed by training a model on the selected dataset. Finally, you will evaluate the models using the generated metrics to determine which one performs best.
 
