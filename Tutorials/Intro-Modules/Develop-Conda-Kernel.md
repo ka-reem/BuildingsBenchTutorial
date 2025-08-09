@@ -122,4 +122,4 @@ Please follow these steps to install `buildings_bench`. This will allow installa
   
 Create a Jupyter kernel named `BuildingsBenchKernel`, and confirm that it appears in the list of available kernels within the Jupyter interface. 
 
-## Next Step: /BuildingsBenchTutorial/Tutorials/Intro-Modules/Intro-Object-Oriented-Programming.ipynb
+#### Next Step: `/BuildingsBenchTutorial/Tutorials/Intro-Modules/Intro-Object-Oriented-Programming.ipynb`
