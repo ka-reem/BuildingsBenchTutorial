@@ -1,15 +1,21 @@
-You are now ready to begin your final project. Before you get started, make sure you’ve completed or are familiar with the following:
-- Created a conda environment with the buildings_bench module installed
-- Comfortable with OOP, PyTorch, Matplotlib, and NN model architectures
+You are now ready to begin your final project. Before you get started, ensure you have completed or are familiar with the following:
+- Created a `conda` environment with the buildings_bench module installed
+- Comfortable with `OOP`, `PyTorch`, `Matplotlib`, and `NN` model architectures
 
-For the final project, there are three tasks that need to be completed. The first task is to perform exploratory data analysis (EDA) on the designated dataset(s). Next, you will train a model on the selected dataset. Finally, using the generated metrics, determine which dataset performs best and complete the tasks outlined below.
+There are four assignments in this directory that must be completed in the following sequence to finish the project:
+- Explore-Dataset.ipynb
+- Train-Model.ipynb
+- Select-Model.ipynb
+- Best-Overall-Model.md (Group Assignment)
 
-There are four assignemtn in this directory that must be completed in the following sequence to finish the project:
-- `EDA-Dataset.ipynb`
-- `Train-Model.ipynb`
-- `Post-Data-Analysis.ipynb`
-- `Conclusion-Analysis.md`
+The first three assignments must be completed individually, while the Best-Overall-Model.md will be a group task. These individual tasks are essential for completing the group assignment. The first task is to perform exploratory data analysis (EDA) on the designated dataset(s), followed by training a model on the selected dataset. Finally, you will evaluate the models using the generated metrics to determine which one performs best.
 
-The `Conclusion-Analysis.md` will be a group assignment, while the other three components must be completed individually in order to fulfill the group assignment requirements.
+For the group project, all team members will complete the same set of tasks. However, to avoid redundancy, each member will work with a different dataset. Before moving forward, gather as a team and decide which dataset each member will choose. Each team member should select one of the five available datasets, which are:
 
-Since this is a group project, all members will complete the same set of tasks, but each team member will work with a different dataset. To avoid overlap, each person should choose one of the five available members (Member-ideal, Member-electricity, Member-lcl, Member-sceaux, or Member-borealis). If you select Member-ideal, you will use the Ideal dataset; similarly, Member-lcl will use the LCL dataset, and so on.  Make sure no two members select the same dataset.
+- Member-ideal: Ideal dataset
+- Member-electricity: Electricity dataset
+- Member-lcl: LCL dataset
+- Member-sceaux: Sceaux dataset
+- Member-borealis: Borealis dataset
+
+Make sure that no two members select the same dataset.
