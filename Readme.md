@@ -6,7 +6,7 @@ Short-Term Load Forecasting (STLF) is the process of predicting the electrical e
 
 ## Pre-requisites
 
-We assume you have experience using the command line, as well as some coding experience in at least one programming language. If you're not familiar with Unix or Python, you should review introductory material on these topics before proceeding with the tutorials.
+We assume you have experience using the command line, as well as some coding experience in at least one programming language. If you're not familiar with command line or Python, you should review introductory material on these topics before proceeding with the tutorials.
 
 - Basic Unix: [https://github.com/olcf/hands-on-with-frontier/tree/master/challenges/Basic_Unix_Vim#basic-unix-and-vim-skills](https://github.com/olcf/hands-on-with-frontier/tree/master/challenges/Basic_Unix_Vim#basic-unix-and-vim-skills)  
 - Intro to Python: [https://www.geeksforgeeks.org/python/python-programming-language-tutorial/](https://www.geeksforgeeks.org/python/python-programming-language-tutorial/)
@@ -26,10 +26,10 @@ BuildingsBenchTutorial/
 │   │   └── Readme.md
 │   │
 │   └── Final-Project-Modules/
-│       ├── EDA-Dataset.ipynb
+│       ├── Explore-Dataset.ipynb
 │       ├── Train-Model.ipynb
-│       ├── Select.ipynb
-│       ├── Conclusion-Analysis.md    
+│       ├── Select-Model.ipynb
+│       ├── Best-Overall-Model.md    
 │       └── Readme.md    
 │
 ├── Images/
@@ -51,7 +51,7 @@ AI assistants like ChatGPT and Gemini are becoming more common in everyday work.
 
 ## Next Step
 
-Start with: `Tutorials/Intro-Modules/Readme.md`
+Start with: `BuildingsBenchTutorial/Tutorials/Intro-Modules/Readme.md`
 
 ## References
 
