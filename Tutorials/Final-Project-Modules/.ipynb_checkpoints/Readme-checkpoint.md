@@ -19,3 +19,7 @@ For the group project, all team members will complete the same set of tasks. How
 - `Member-borealis`: `Borealis` dataset
 
 Make sure that no two members select the same dataset.
+
+## Next Step:
+
+`/BuildingsBenchTutorial/Tutorials/Final-Project-Modules/Explore-Dataset.ipynb`
