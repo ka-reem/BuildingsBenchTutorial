@@ -49,7 +49,7 @@ The final project will be a collaborative effort. We expect each group member to
 
 AI assistants like ChatGPT and Gemini are becoming more common in everyday work. Learning how to use AI effectively is becoming just as important as learning to code. Hence, using AI or online resources is permitted.
 
-## Next Step: `BuildingsBenchTutorial/Tutorials/Intro-Modules/Readme.md`
+#### Next Step: `BuildingsBenchTutorial/Tutorials/Intro-Modules/Readme.md`
 
 ## References
 
