@@ -23,9 +23,13 @@ Make sure that no two members select the same dataset.
 Below is a brief description of all the datasets, which we have taken from the publication BuildingsBench: A Large-Scale Dataset of 900K Buildings and Benchmark for Short-Term Load Forecasting (https://arxiv.org/pdf/2307.00142). For more detailed information, please refer to the paper and its references.
 
 __Electricity__: 370 commercial buildings in Portugal with data spanning 2011–2014.
+
 __Low Carbon London (lcl)__ : Energy consumption meter readings from 5,567 London, UK house-holds between 2011–2014. To keep the overall number of residential and commercial buildings roughly the same, we keep a random sample of 713 buildings.
+
 __IDEAL__: Electricity meter data from 255 homes in Edinburgh, UK, between 2016–2018.
+
 __Sceaux__: Energy consumption from a single household in Sceaux, Paris, between 2007–2010.
+
 __Borealis__: 6-second load measurements recorded for 30 homes in Waterloo, ON, in 2011–2012.
 
 ## Next Step:
