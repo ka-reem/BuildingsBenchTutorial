@@ -1,0 +1,7 @@
+/global/homes/k/kareem8/.conda/envs/BuildingsBenchEnv/bin/python: can't open file '/pscratch/sd/k/kareem8/BuildingsBenchTutorial/train-models.py': [Errno 2] No such file or directory
+srun: error: nid004085: task 0: Exited with exit code 2
+srun: Terminating StepId=41608445.0
+
+my comments:                                                                      ## /pscratch/sd/k/kareem8/BuildingsBenchTutorial/Tutorials/Final-Project-Modules/train-models.py
+# to run
+                                                                                # sbatch /pscratch/sd/k/kareem8/BuildingsBenchTutorial/Tutorials/Final-Project-Modules/run_pi.slurm

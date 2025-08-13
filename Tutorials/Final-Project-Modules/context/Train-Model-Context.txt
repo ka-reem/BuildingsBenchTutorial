@@ -1,0 +1,94 @@
+# Train Deep Learning Model
+
+This notebook consists of two tasks. For both tasks, you must provide your assigned dataset name in list format, just as you did in the previous exercise.
+
+When you train a model, it will print the following evaluation metrics:
+- `Training loss`
+- `Training time`
+- `Mean Absolute Error (MAE)`
+- `Root Mean Squared Error (RMSE)`
+- `R² score`
+
+Below is an overview of the three metrics:
+
+### Evaluation Metrics and Their Desired Trends
+
+| Metric             | Definition                                                                                  | Desired Trend                                  |
+|--------------------|----------------------------------------------------------------------------------------------|------------------------------------------------|
+| MAE (Mean Absolute Error) | Measures the average absolute difference between predicted and actual values.           | ↓ Decrease — Lower MAE indicates better average accuracy. |
+| RMSE (Root Mean Squared Error)  | Measures the average of squared differences; penalizes larger errors more heavily.      | ↓ Decrease — Lower RMSE indicates fewer large errors.       |
+| R² (Coefficient of Determination) | Indicates the proportion of variance explained by the model (maximum = 1.0).        | ↑ Increase — Higher R² means better model fit.             |
+
+
+Please familiarize yourself with the metrics above, as they will be important for completing the analysis in the next tutorial.
+
+After model evaluation is complete, a folder will be created in your current directory using the following structure:
+`dataset_name → model_name → activation_function → optimizer_name → epoch_num`
+
+Three JSON files will be generated within this directory structure: 
+1) `predictions.json`
+2) `evaluation.json`
+3) `train_loss.json`
+
+The predictions.json file stores the input data points used for forecasting, along with the predicted values and corresponding target values. The evaluation.json file contains the evaluation metrics, while the train_loss.json file records the training loss and model training time.
+
+## Task 1: Train Predefined Models
+
+This task involves training four predefined model architectures using the dataset you have been assigned. These models include:
+
+* `NN`
+* `RNN` (Recurrent Neural Network)
+* `LSTM` (Long Short-Term Memory)
+* `GRU` (Gated Recurrent Unit)
+
+Note: `LSTM` and `GRU` are specialized types of `RNNs` designed to handle sequence data more effectively.
+
+You are not required to train all combinations — there are 125 or more available — but you should train at least 30 different combinations. Make sure these include at least four combinations for each model architecture (`NN`, `RNN`, `LSTM`, and `GRU`) to ensure broad coverage.
+
+Example Model Combinations
+```
+| Model | Activation Function | Optimizer | Epochs |
+|-------|---------------------|-----------|--------|
+| NN    | ReLU                | AdamW     | 10     |
+| RNN   | Tanh                | SGD       | 5      |
+| LSTM  | GELU                | Adam      | 10     |
+| GRU   | Leaky ReLU          | AdamW     | 15     |
+```
+
+The code is configured to run over 125 model combinations, which may take significant time to complete.
+
+To speed up development and avoid long runtimes, you can reduce the number of combinations by limiting the range of options.
+
+Shrinked Option Set (Example 1)
+```
+model_classes = ["NN", "RNN"]
+activations = ["relu", "tanh"]
+optimizers = ["adam"]
+epoch_options = [5, 10]
+```
+
+Shrinked Option Set (Example 2 — Quick Debug)
+```
+model_classes = ["NN"]
+activations = ["relu"]
+optimizers = ["adam"]
+epoch_options = [5]
+```
+
+Note: Do not attempt to train for more than 30 epochs per combination, as this may lead to long execution times and unnecessary resource usage.
+
+## Task 2: Build and Train Your Custom Model
+
+This task focuses on building and training your own custom model, referred to as `MyNN`.
+
+In this task, you will design your own model architecture and evaluate its performance by training it under different settings. You should train at least `10` different combinations using `MyNN`.
+
+Example Combinations with `MyNN`
+```
+| Model | Activation Function | Optimizer | Epochs |
+|-------|---------------------|-----------|--------|
+| MyNN  | ReLU                | AdamW     | 10     |
+| MyNN  | Tanh                | SGD       | 5      |
+| MyNN  | GELU                | Adam      | 10     |
+| MyNN  | Leaky ReLU          | AdamW     | 15     |
+```
